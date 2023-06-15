@@ -24,6 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondActivity"></activity>
+        <service
+            android:name=".SocketService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
     </application>
 
 </manifest>
