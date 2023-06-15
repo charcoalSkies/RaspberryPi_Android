@@ -6,7 +6,7 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 
-public class SENSOR {
+public class Sensor {
     public JSONObject sendSensorData(SensorDTO sensorVO){
         HashMap<String, Object> headerMap = new HashMap<>();
         HashMap<String, Object> bodyMap = new HashMap<>();
